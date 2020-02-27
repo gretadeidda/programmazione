@@ -10,5 +10,5 @@ process= ba.pulsen(1,beat) : fi.lowpass(128,1000);
 //ba.pulsen produce un click di durata stabilita ogni quantità di campioni stabiliti
 //ba.pulsen genera un click ogni beat, il beat è una funzione  che utilizza la funzione bpm2samp che converte in capioni una durata espressa in beat per minuto 
 //ma.SR cioe frequenza di campionamento 
-
+//la frequenza di campionamento è il numero di campioni in 1 secondo
 
